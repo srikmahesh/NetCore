@@ -9,6 +9,77 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="bin\Debug\net8.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net8.0\appsettings.json" />
+    <Content Include="bin\Debug\net8.0\NetCore.deps.json" />
+    <Content Include="bin\Debug\net8.0\NetCore.runtimeconfig.json" />
+    <Content Include="bin\Release\net8.0\appsettings.Development.json" />
+    <Content Include="bin\Release\net8.0\appsettings.json" />
+    <Content Include="bin\Release\net8.0\NetCore.deploy-readme.txt" />
+    <Content Include="bin\Release\net8.0\NetCore.deps.json" />
+    <Content Include="bin\Release\net8.0\NetCore.Parameters.xml" />
+    <Content Include="bin\Release\net8.0\NetCore.runtimeconfig.json" />
+    <Content Include="bin\Release\net8.0\NetCore.SetParameters.xml" />
+    <Content Include="bin\Release\net8.0\NetCore.SourceManifest.xml" />
+    <Content Include="bin\Release\net8.0\publish\appsettings.Development.json" />
+    <Content Include="bin\Release\net8.0\publish\appsettings.json" />
+    <Content Include="bin\Release\net8.0\publish\NetCore.deps.json" />
+    <Content Include="bin\Release\net8.0\publish\NetCore.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll" />
+    <None Include="bin\Debug\net8.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net8.0\NetCore.dll" />
+    <None Include="bin\Debug\net8.0\NetCore.exe" />
+    <None Include="bin\Debug\net8.0\NetCore.pdb" />
+    <None Include="bin\Debug\net8.0\NetCore.zip" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll" />
+    <None Include="bin\Release\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll" />
+    <None Include="bin\Release\net8.0\Microsoft.IdentityModel.Abstractions.dll" />
+    <None Include="bin\Release\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <None Include="bin\Release\net8.0\Microsoft.IdentityModel.Logging.dll" />
+    <None Include="bin\Release\net8.0\Microsoft.IdentityModel.Protocols.dll" />
+    <None Include="bin\Release\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+    <None Include="bin\Release\net8.0\Microsoft.IdentityModel.Tokens.dll" />
+    <None Include="bin\Release\net8.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Release\net8.0\NetCore.deploy.cmd" />
+    <None Include="bin\Release\net8.0\NetCore.dll" />
+    <None Include="bin\Release\net8.0\NetCore.exe" />
+    <None Include="bin\Release\net8.0\NetCore.pdb" />
+    <None Include="bin\Release\net8.0\NetCore.zip" />
+    <None Include="bin\Release\net8.0\publish\Microsoft.AspNetCore.Authentication.JwtBearer.dll" />
+    <None Include="bin\Release\net8.0\publish\Microsoft.IdentityModel.Abstractions.dll" />
+    <None Include="bin\Release\net8.0\publish\Microsoft.IdentityModel.JsonWebTokens.dll" />
+    <None Include="bin\Release\net8.0\publish\Microsoft.IdentityModel.Logging.dll" />
+    <None Include="bin\Release\net8.0\publish\Microsoft.IdentityModel.Protocols.dll" />
+    <None Include="bin\Release\net8.0\publish\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+    <None Include="bin\Release\net8.0\publish\Microsoft.IdentityModel.Tokens.dll" />
+    <None Include="bin\Release\net8.0\publish\Microsoft.OpenApi.dll" />
+    <None Include="bin\Release\net8.0\publish\NetCore.dll" />
+    <None Include="bin\Release\net8.0\publish\NetCore.exe" />
+    <None Include="bin\Release\net8.0\publish\NetCore.pdb" />
+    <None Include="bin\Release\net8.0\publish\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Release\net8.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Release\net8.0\publish\System.IdentityModel.Tokens.Jwt.dll" />
+    <None Include="bin\Release\net8.0\publish\web.config" />
+    <None Include="bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Release\net8.0\System.IdentityModel.Tokens.Jwt.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
